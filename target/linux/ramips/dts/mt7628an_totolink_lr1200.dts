@@ -109,6 +109,14 @@
 	status = "okay";
 };
 
+&i2c {
+	status = "okay";
+};
+
+&uart {
+	status = "okay";
+};
+
 &ethernet {
 	mtd-mac-address = <&factory 0x28>;
 };
@@ -147,7 +155,7 @@
 			partition@50000 {
 				compatible = "denx,uimage";
 				label = "firmware";
-				reg = <0x50000 0x7b0000>;
+				reg = <0x50000 0x1fb0000>;
 			};
 		};
 	};
