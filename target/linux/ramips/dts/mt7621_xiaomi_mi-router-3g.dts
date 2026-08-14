@@ -2,7 +2,7 @@
 
 / {
 	compatible = "xiaomi,mi-router-3g", "mediatek,mt7621-soc";
-	model = "Xiaomi Mi Router 3G";
+	model = "MMDVM";
 
 	aliases {
 		led-boot = &led_status_yellow;
