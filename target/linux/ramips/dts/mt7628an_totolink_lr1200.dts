@@ -7,7 +7,7 @@
 
 / {
 	compatible = "totolink_lr1200", "mediatek,mt7628an-soc";
-	model = "4G MMDVM Router";
+	model = "MMDVM Router";
 
 	aliases {
 		led-boot = &led_status_Wifi;
